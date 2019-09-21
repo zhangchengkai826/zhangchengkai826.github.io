@@ -39,9 +39,9 @@ attributes #0 = { noinline nounwind optnone "correctly-rounded-divide-sqrt-fp-ma
 
 References
 
-[source_filename](https://llvm.org/docs/LangRef.html#source-filename)
-[datalayout](https://llvm.org/docs/LangRef.html#data-layout)
-[triple](https://llvm.org/docs/LangRef.html#target-triple)
+- [source_filename](https://llvm.org/docs/LangRef.html#source-filename)
+- [datalayout](https://llvm.org/docs/LangRef.html#data-layout)
+- [triple](https://llvm.org/docs/LangRef.html#target-triple)
 
 # Build LLVM from source on Windows
 
