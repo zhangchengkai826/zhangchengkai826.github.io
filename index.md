@@ -1,3 +1,25 @@
+# Dissect kaitai-struct-compiler's build.sbt
+
+```
+import java.io.File
+import java.nio.charset.Charset
+import java.nio.file.Files
+
+import com.typesafe.sbt.packager.linux.{LinuxPackageMapping, LinuxSymlink}
+import sbt.Keys._
+```
+
+References
+
+- [{}](https://alvinalexander.com/scala/how-to-import-multiple-members-scala-wildcard-curly-braces-syntax)
+- [sbt.Keys._](https://www.scala-sbt.org/1.x/docs/Basic-Def.html)
+
+# Compile LLVM IR code to object code
+
+```
+llc.exe -filetype=obj a.ll
+```
+
 # Compile C source code to LLVM IR code
 
 ```
