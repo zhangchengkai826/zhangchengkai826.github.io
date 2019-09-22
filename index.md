@@ -14,6 +14,12 @@ References
 - [{}](https://alvinalexander.com/scala/how-to-import-multiple-members-scala-wildcard-curly-braces-syntax)
 - [sbt.Keys._](https://www.scala-sbt.org/1.x/docs/Basic-Def.html)
 
+(TODO)
+
+# Build kaitai-struct-compiler from source
+
+[Building for JVM (zip package)](http://doc.kaitai.io/developers.html)
+
 # Compile LLVM IR code to object code
 
 ```
