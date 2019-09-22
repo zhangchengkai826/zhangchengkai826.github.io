@@ -42,6 +42,13 @@ References
 - [source_filename](https://llvm.org/docs/LangRef.html#source-filename)
 - [datalayout](https://llvm.org/docs/LangRef.html#data-layout)
 - [triple](https://llvm.org/docs/LangRef.html#target-triple)
+- [dso_local](https://llvm.org/docs/LangRef.html#runtime-preemption-specifiers)
+- [attributes](https://llvm.org/docs/LangRef.html#attribute-groups)
+- [alloca](https://llvm.org/docs/LangRef.html#alloca-instruction)
+- [store](https://llvm.org/docs/LangRef.html#store-instruction)
+- [metadata](https://llvm.org/docs/LangRef.html#metadata)
+- [llvm.module.flags](https://llvm.org/docs/LangRef.html#module-flags-metadata)
+- [llvm.ident](https://llvm.org/docs/SourceLevelDebugging.html)
 
 # Build LLVM from source on Windows
 
