@@ -1,3 +1,7 @@
+---
+title: RxJava SA Research
+---
+
 # Learn to use RxJava
 
 ## Build RxJava from source
@@ -17,7 +21,7 @@ $ ./gradlew build
 #### Problems Met
 
 ```
-C:\Users\andys\Desktop\experiment\gradle\basic-demo>gradle init
+%USERPROFILE%\Desktop\experiment\gradle\basic-demo>gradle init
 
 Welcome to Gradle 5.4.1!
 
@@ -52,7 +56,7 @@ Project name (default: basic-demo):
 
 BUILD SUCCESSFUL in 1m 0s
 2 actionable tasks: 2 executed
-C:\Users\andys\Desktop\experiment\gradle\basic-demo>gradlew copy
+%USERPROFILE%\Desktop\experiment\gradle\basic-demo>gradlew copy
 Downloading https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
 
 Exception in thread "main" java.net.SocketException: Unexpected end of file from server
