@@ -81,7 +81,7 @@ Exception in thread "main" java.net.SocketException: Unexpected end of file from
 
 - [Set gradle proxy to socks](https://discuss.gradle.org/t/how-can-i-set-gradle-proxy-to-socks/15508) **SOLVED**
 
-> Add those lines to %USERPROFILE%\\.gradle\\gradle.properties
+Add those lines to %USERPROFILE%\\.gradle\\gradle.properties
 
 ```
 org.gradle.jvmargs=-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=1080
