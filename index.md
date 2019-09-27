@@ -1,5 +1,5 @@
 ---
-title: ZCK's Website
+title: Home
 ---
 
 # Dissect kaitai-struct-compiler's build.sbt
