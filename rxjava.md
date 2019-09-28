@@ -92,3 +92,80 @@ systemProp.http.proxyPort=1080
 systemProp.https.proxyHost=socks5://127.0.0.1
 systemProp.https.proxyPort=1080
 ```
+
+#### Tutorials Used
+
+- [Building Java Libraries](https://guides.gradle.org/building-java-libraries/)
+
+#### Problems Met
+
+```
+%USERPROFILE%\Desktop\experiment\gradle\java-lib-demo>gradle init
+
+Select type of project to generate:
+  1: basic
+  2: cpp-application
+  3: cpp-library
+  4: groovy-application
+  5: groovy-library
+  6: java-application
+  7: java-library
+  8: kotlin-application
+  9: kotlin-library
+  10: scala-library
+Enter selection (default: basic) [1..10] 7
+
+Select build script DSL:
+  1: groovy
+  2: kotlin
+Enter selection (default: groovy) [1..2] 1
+
+Select test framework:
+  1: junit
+  2: testng
+  3: spock
+Enter selection (default: junit) [1..3] 1
+
+Project name (default: java-lib-demo):
+Source package (default: java.lib.demo): demo.zck
+
+BUILD SUCCESSFUL in 1m 30s
+2 actionable tasks: 2 executed
+%USERPROFILE%\Desktop\experiment\gradle\java-lib-demo>gradlew build
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Could not resolve all files for configuration ':compileClasspath'.
+   > Could not resolve org.apache.commons:commons-math3:3.6.1.
+     Required by:
+         project :
+      > Could not resolve org.apache.commons:commons-math3:3.6.1.
+         > Could not get resource 'https://jcenter.bintray.com/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom'.
+            > Could not GET 'https://jcenter.bintray.com/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom'.
+               > socks5://127.0.0.1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+1 actionable task: 1 executed
+```
+
+#### Solutions Tried
+
+- [Set JVM proxy to socks](https://stackoverflow.com/questions/37822473/jmeter-with-socks-proxy) **SOLVED**
+
+Delete those lines to %USERPROFILE%\\.gradle\\gradle.properties
+
+```
+systemProp.http.proxyHost=socks5://127.0.0.1
+systemProp.http.proxyPort=1080
+
+systemProp.https.proxyHost=socks5://127.0.0.1
+systemProp.https.proxyPort=1080
+```
