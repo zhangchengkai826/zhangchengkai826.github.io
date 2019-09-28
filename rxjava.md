@@ -96,6 +96,7 @@ systemProp.https.proxyPort=1080
 #### Tutorials Used
 
 - [Building Java Libraries](https://guides.gradle.org/building-java-libraries/)
+- [A beginners guide to Gradle](https://medium.com/@andrewMacmurray/a-beginners-guide-to-gradle-26212ddcafa8) **STRONGLY RECOMMEND**
 
 #### Problems Met
 
@@ -169,3 +170,13 @@ systemProp.http.proxyPort=1080
 systemProp.https.proxyHost=socks5://127.0.0.1
 systemProp.https.proxyPort=1080
 ```
+
+#### Tutorials Used
+
+- [Publish gradle java library to JCenter](https://medium.com/@yegor_zatsepin/simple-way-to-publish-your-android-library-to-jcenter-d1e145bacf13) **STRONGLY RECOMMAND**
+
+#### References
+
+- [Gradle: What is the difference between classpath and compile dependencies?](https://stackoverflow.com/questions/34286407/gradle-what-is-the-difference-between-classpath-and-compile-dependencies)
+- [What the difference in applying gradle plugin](https://stackoverflow.com/questions/32352816/what-the-difference-in-applying-gradle-plugin)
+- [ext and code block's meaning in the gradle file](https://stackoverflow.com/questions/21696534/ext-and-code-blocks-meaning-in-the-gradle-file)
