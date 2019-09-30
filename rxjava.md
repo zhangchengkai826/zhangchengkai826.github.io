@@ -96,7 +96,7 @@ systemProp.https.proxyPort=1080
 #### Tutorials Used
 
 - [Building Java Libraries](https://guides.gradle.org/building-java-libraries/)
-- [A beginners guide to Gradle](https://medium.com/@andrewMacmurray/a-beginners-guide-to-gradle-26212ddcafa8) **STRONGLY RECOMMEND**
+- [A beginners guide to Gradle](https://medium.com/@andrewMacmurray/a-beginners-guide-to-gradle-26212ddcafa8) **INFORMATIVE**
 
 #### Problems Met
 
@@ -173,10 +173,38 @@ systemProp.https.proxyPort=1080
 
 #### Tutorials Used
 
-- [Publish gradle java library to JCenter](https://medium.com/@yegor_zatsepin/simple-way-to-publish-your-android-library-to-jcenter-d1e145bacf13) **STRONGLY RECOMMAND**
+- [Publish gradle java library to JCenter](https://medium.com/@yegor_zatsepin/simple-way-to-publish-your-android-library-to-jcenter-d1e145bacf13) **INFORMATIVE**
 
 #### References
 
 - [Gradle: What is the difference between classpath and compile dependencies?](https://stackoverflow.com/questions/34286407/gradle-what-is-the-difference-between-classpath-and-compile-dependencies)
 - [What the difference in applying gradle plugin](https://stackoverflow.com/questions/32352816/what-the-difference-in-applying-gradle-plugin)
 - [ext and code block's meaning in the gradle file](https://stackoverflow.com/questions/21696534/ext-and-code-blocks-meaning-in-the-gradle-file)
+
+### Read build.gradle
+
+#### References
+
+- [ext](https://docs.gradle.org/current/dsl/org.gradle.api.Project.html#N150E3)
+- [animalsniffer](https://www.mojohaus.org/animal-sniffer/)
+- [jmh](http://tutorials.jenkov.com/java-performance/jmh.html)
+- [Difference between SCM and SVN](https://stackoverflow.com/questions/5872136/difference-between-scm-and-svn)
+- [Implementation Vs Api](https://medium.com/mindorks/implementation-vs-api-in-gradle-3-0-494c817a6fa)
+
+## Learn some basic concepts in RxJava
+
+- [RxJava README](https://github.com/ReactiveX/RxJava) **INFORMATIVE**
+- [RxJava Tutorial](https://www.tutorialspoint.com/rxjava/index.htm)
+- [Disposable](https://medium.com/@vanniktech/rxjava-2-disposable-under-the-hood-f842d2373e64)
+- [FlatMap](http://reactivex.io/documentation/operators/flatmap.html)
+- [Difference between Observable.create() and Observable.fromCallable()](https://stackoverflow.com/questions/43785961/difference-between-observable-create-and-observable-fromcallable)
+- [Schedulers](https://www.aanandshekharroy.com/articles/2018-01/rxjava-schedulers)
+- [doOnNext vs. doOnEach](https://stackoverflow.com/questions/28723341/rxjava-difference-between-doonnext-and-dooneach)
+- [subscribeOn vs. observeOn](https://proandroiddev.com/understanding-rxjava-subscribeon-and-observeon-744b0c6a41ea) **INFORMATIVE**
+- [flatMap() vs. concatMap() vs. concatMapEager()](https://www.nurkiewicz.com/2017/08/flatmap-vs-concatmap-vs-concatmapeager.html) **INFORMATIVE**
+- [flatMap() vs. parallel()](https://www.nurkiewicz.com/2017/09/idiomatic-concurrency-flatmap-vs.html) **INFORMATIVE**
+- [blockingSubscribe()](https://stackoverflow.com/questions/44658357/rxjava-scheduler-to-observe-on-main-thread)
+- [flatMapSingle()](http://reactivex.io/RxJava/javadoc/io/reactivex/Observable.html#flatMapSingle-io.reactivex.functions.Function-)
+- [flatMapIterable()](https://medium.com/@ubuntudroid/rxjava-flattening-a-stream-of-iterables-ea26f593ba07)
+- [IgnoreElements()](http://reactivex.io/documentation/operators/ignoreelements.html)
+- [andThen()](http://reactivex.io/RxJava/javadoc/io/reactivex/Completable.html#andThen-io.reactivex.ObservableSource-)
