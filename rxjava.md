@@ -3,9 +3,9 @@ title: RxJava SA Reconstruction
 description: Author - 章成凯 CHENGKAI ZHANG
 ---
 
-# Learn to use RxJava
+# First Step - Learn to Use RxJava
 
-## Build RxJava from source
+## Build RxJava from Source Using Gradle
 
 ```
 $ git clone git@github.com:ReactiveX/RxJava.git
@@ -13,7 +13,7 @@ $ cd RxJava/
 $ ./gradlew build
 ```
 
-### Learn to use gradle
+### Learn to Use Gradle
 
 #### Tutorials Used
 
@@ -182,7 +182,7 @@ systemProp.https.proxyPort=1080
 - [What the difference in applying gradle plugin](https://stackoverflow.com/questions/32352816/what-the-difference-in-applying-gradle-plugin)
 - [ext and code block's meaning in the gradle file](https://stackoverflow.com/questions/21696534/ext-and-code-blocks-meaning-in-the-gradle-file)
 
-### Read build.gradle
+### Read & Try to Understand RxJava's Build Script (build.gradle)
 
 #### References
 
@@ -192,7 +192,7 @@ systemProp.https.proxyPort=1080
 - [Difference between SCM and SVN](https://stackoverflow.com/questions/5872136/difference-between-scm-and-svn)
 - [Implementation Vs Api](https://medium.com/mindorks/implementation-vs-api-in-gradle-3-0-494c817a6fa)
 
-## Learn some basic concepts in RxJava
+## Learn Some Basic Concepts in RxJava
 
 - [RxJava README](https://github.com/ReactiveX/RxJava) **INFORMATIVE**
 - [RxJava Tutorial](https://www.tutorialspoint.com/rxjava/index.htm)
