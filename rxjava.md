@@ -209,3 +209,9 @@ systemProp.https.proxyPort=1080
 - [flatMapIterable()](https://medium.com/@ubuntudroid/rxjava-flattening-a-stream-of-iterables-ea26f593ba07)
 - [IgnoreElements()](http://reactivex.io/documentation/operators/ignoreelements.html)
 - [andThen()](http://reactivex.io/RxJava/javadoc/io/reactivex/Completable.html#andThen-io.reactivex.ObservableSource-)
+
+# Second Step - Read the Source Code of RxJava
+
+## References
+
+- [Java Anotations](https://beginnersbook.com/2014/09/java-annotations/)
