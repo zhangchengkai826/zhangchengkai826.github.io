@@ -2,6 +2,14 @@
 title: Home
 ---
 
+# Read Clang source code
+
+References
+
+- [Clang Driver Design & Internals](https://clang.llvm.org/docs/DriverInternals.html)
+- [LLVM ostream](https://llvm.org/doxygen/raw__ostream_8cpp_source.html#l00882)
+- [Clang response files](https://stackoverflow.com/questions/40727748/windows-clang-command-line-too-long)
+
 # Read Clang build script (CMakeLists.txt)
 
 References
