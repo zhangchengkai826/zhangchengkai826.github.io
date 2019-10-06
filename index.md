@@ -2,6 +2,15 @@
 title: Home
 ---
 
+# Read Clang build script (CMakeLists.txt)
+
+References
+
+- [For CMake's “install” command, what can the COMPONENT argument do?](https://stackoverflow.com/questions/9190098/for-cmakes-install-command-what-can-the-component-argument-do)
+- [${ARGN}](https://cmake.org/cmake/help/v3.0/command/macro.html)
+- [if TARGET](https://cmake.org/cmake/help/v3.0/command/if.html)
+- [What is cmake_install.cmake](https://stackoverflow.com/questions/25669919/what-is-cmake-install-cmake)
+
 # Dissect kaitai-struct-compiler's build.sbt
 
 ```
